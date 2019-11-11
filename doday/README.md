@@ -1,3 +1,13 @@
+### Notes
+To begin, it took me much longer than I would've liked to get the Cerner API working correctly. I ran into a handful of CORS issues when trying to hit the API for patient data from my locally hosted app- finally found a workaround in adding a proxy to my package.json.
+
+Another thing that ate up quite a bit of time for me: from the start I tried to get fancy and use stateless functional React components with Hooks and Context as opposed to the stateful class components you see in the code now. It proved more challenging than I had anticipated so for the sake of progress I switched to using local component states. 
+
+Things I would like to continue working on: Improve error handling with cases for different types of errors, improve CSS/stylistic choices, etc. After working for a while I was just aiming to get the project functioning correctly knowing that all of the bells & whistles could come after that. 
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
